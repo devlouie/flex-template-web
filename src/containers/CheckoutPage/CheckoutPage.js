@@ -37,6 +37,7 @@ import {
   setInitialValues,
   speculateTransaction,
 } from './CheckoutPage.duck';
+import { createStripePaymentToken } from '../../ducks/stripe.duck.js';
 import config from '../../config';
 
 import { storeData, storedData, clearData } from './CheckoutPageSessionHelpers';
@@ -464,6 +465,7 @@ export class CheckoutPageComponent extends Component {
                   paymentInfo={intl.formatMessage({ id: 'CheckoutPage.paymentInfo' })}
                   authorDisplayName={currentAuthor.attributes.profile.displayName}
                   showInitialMessageInput={showInitialMessageInput}
+                  onCreateStripePaymentToken={this.props.onCreateStripePaymentToken}
                 />
               ) : null}
             </section>
@@ -573,6 +575,7 @@ const mapDispatchToProps = dispatch => ({
   sendOrderRequestAfterEnquiry: (transactionId, params) =>
     dispatch(initiateOrderAfterEnquiry(transactionId, params)),
   fetchSpeculatedTransaction: params => dispatch(speculateTransaction(params)),
+  onCreateStripePaymentToken: params => dispatch(createStripePaymentToken(params)),
 });
 
 const CheckoutPage = compose(
