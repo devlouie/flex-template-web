@@ -4,51 +4,36 @@
 
 export const amenities = [
   {
-    key: 'towels',
-    label: 'Towels',
+    key: 'sunroof',
+    label: 'Sunroof',
   },
   {
-    key: 'bathroom',
-    label: 'Bathroom',
+    key: 'premium_surround_sound_system',
+    label: 'Premium surround sound system',
   },
   {
-    key: 'swimming_pool',
-    label: 'Swimming pool',
+    key: 'turbocharged',
+    label: 'Turbocharged',
   },
   {
-    key: 'own_drinks',
-    label: 'Own drinks allowed',
-  },
-  {
-    key: 'jacuzzi',
-    label: 'Jacuzzi',
-  },
-  {
-    key: 'audiovisual_entertainment',
-    label: 'Audiovisual entertainment',
-  },
-  {
-    key: 'barbeque',
-    label: 'Barbeque',
-  },
-  {
-    key: 'own_food_allowed',
-    label: 'Own food allowed',
+    key: 'supercharged',
+    label: 'Turbocharged',
   },
 ];
 
 export const categories = [
-  { key: 'smoke', label: 'Smoke' },
-  { key: 'electric', label: 'Electric' },
-  { key: 'wood', label: 'Wood' },
-  { key: 'other', label: 'Other' },
+  { key: 'Luxury', label: 'Luxury' },
+  { key: 'Sport', label: 'Sport' },
+  { key: 'Exotic', label: 'Exotic' },
+  { key: 'Vintage', label: 'Vintage' },
+  { key: 'Rare', label: 'Rare' },
 ];
 
 // Price filter configuration
 // Note: unlike most prices this is not handled in subunits
 export const priceFilterConfig = {
   min: 0,
-  max: 1000,
+  max: 5000,
   step: 5,
 };
 
