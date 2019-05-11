@@ -17,7 +17,7 @@ export const amenities = [
   },
   {
     key: 'supercharged',
-    label: 'Turbocharged',
+    label: 'Surbocharged',
   },
 ];
 
