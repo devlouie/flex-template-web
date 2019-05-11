@@ -337,7 +337,7 @@
   "ListingPage.perUnit": "per unit",
   "ListingPage.reviewsError": "Loading reviews failed.",
   "ListingPage.reviewsHeading": "Reviews ({count})",
-  "ListingPage.rulesTitle": "vehicle rules",
+  "ListingPage.rulesTitle": "Vehicle rules",
   "ListingPage.schemaTitle": "{title} - {price} | {siteTitle}",
   "ListingPage.viewImagesButton": "View photos ({count})",
   "ListingPage.yourHostHeading": "Your host",
