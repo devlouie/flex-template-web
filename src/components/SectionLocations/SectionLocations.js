@@ -53,17 +53,17 @@ const SectionLocations = props => {
         {locationLink(
           'Sydney',
           sydneyImage,
-          '?address=Sydney%2C%20Australia&bounds=-33.2272006%2C150.8148193%2C-34.4159734%2C151.1471558&origin=-33.8654268%2C-208.789072'
+          '?address=Sydney%2C%20Australia&origin=-33.8654268%2C-208.789072'
         )}
         {locationLink(
           'Melbourne',
           melbourneImage,
-          '?address=Melbourn%2C%20Australiae&bounds=-37.6468593%2C144.7064209%2C-38.0848514%2C145.1637268&origin=-37.8168359%2C-215.0426102'
+          '?address=Melbourne%2C%20Australia&origin=-37.8168359%2C-215.0426102'
         )}
         {locationLink(
           'Brisbane',
           brisbaneImage,
-          '?address=Brisbane%2C%20Australia&bounds=-27.3540826%2C152.9049683%2C-27.5673301%2C153.1446075&origin=-27.4698967%2C-206.9769287'
+          '?address=Brisbane%2C%20Australia&origin=-27.4698967%2C-206.9769287'
         )}
       </div>
     </div>
