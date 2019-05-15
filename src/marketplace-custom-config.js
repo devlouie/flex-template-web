@@ -8,6 +8,14 @@ export const amenities = [
     label: 'Sunroof',
   },
   {
+    key: 'panoramic_sunroof',
+    label: 'Panoramic Sunroof',
+  },
+  {
+    key: 'convertible',
+    label: 'Convertible',
+  },
+  {
     key: 'premium_surround_sound_system',
     label: 'Premium surround sound system',
   },
@@ -17,7 +25,7 @@ export const amenities = [
   },
   {
     key: 'supercharged',
-    label: 'Surbocharged',
+    label: 'Supercharged',
   },
 ];
 
