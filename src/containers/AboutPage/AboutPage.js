@@ -40,24 +40,27 @@ const AboutPage = () => {
 
           <div className={css.contentWrapper}>
             <div className={css.contentSide}>
-              <p>Enjoy an assortment of the finest vehicles in the world!</p>
+              <p>Did you!</p>
             </div>
 
             <div className={css.contentMain}>
               <h2>
-                Enjoy one the largest assortment of rental luxury, exotic, sport, electric and rare 
-                vehicles in Australia, brought to you by Motomo. 
+                Enjoy one of the largest ranges of rental luxury, exotic, sport, electric and rare 
+                vehicles in Australia.
               </h2>
 
-              <p>
-                Motomo makes the booking process easy.
+              <p>    
+                With motomo, booking rental luxury cars could not be easier ( trust us, we've tried ). Simply 
+                create an account, search through the website for a car that picks your interest and place a booking.
+                Please note that bookings will be finalised with the rental agency that has listed the vehicle and not with motomo.
+                Generally, unless mentioned otherwise, you will require 100 points of ID, a deposit and need to be over 25 years old.    
               </p>
 
               <h3 className={css.subtitle}>Do you own a luxury vehicle rental business?</h3>
 
               <p>
                 Motomo is currently looking to include more listings from existing luxury vehicle rental businesses in Australia.
-                If you are interested in applying, please apply <ExternalLink href={siteTwitterPage}>here</ExternalLink>.
+                If you are interested in listing with motomo, please apply <ExternalLink href={siteTwitterPage}>here</ExternalLink>.
               </p>
 
               <p>
