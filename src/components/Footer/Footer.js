@@ -109,9 +109,24 @@ const Footer = props => {
               </ul>
             </div>
 
-
-
-
+            <div className={css.extraLinks}>
+              <div className={css.someLinks}>{socialMediaLinks}</div>
+              <div className={css.legalMatters}>
+                <ul className={css.tosAndPrivacy}>
+                  <li>
+                    <NamedLink name="TermsOfServicePage" className={css.legalLink}>
+                      <FormattedMessage id="Footer.termsOfUse" />
+                    </NamedLink>
+                  </li>
+                  <li>
+                    <NamedLink name="PrivacyPolicyPage" className={css.legalLink}>
+                      <FormattedMessage id="Footer.privacyPolicy" />
+                    </NamedLink>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div
           <div className={css.copyrightAndTermsMobile}>
             <NamedLink name="LandingPage" className={css.organizationCopyrightMobile}>
               <FormattedMessage id="Footer.copyright" />
