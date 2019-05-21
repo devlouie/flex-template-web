@@ -128,7 +128,6 @@ Privacy Policy Complaints and Enquiries
 This Policy may change from timIf you have any queries or complaints about our Privacy Policy please contact us at:
 150 Elizabeth St, Sydney, 2000
 support@motomo.io
-e to time and is available on our website.
 </p>
 
   
