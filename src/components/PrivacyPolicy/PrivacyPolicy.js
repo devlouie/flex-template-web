@@ -11,7 +11,7 @@ const PrivacyPolicy = props => {
   // prettier-ignore
   return (
     <div className={classes}>
-      <p className={css.lastUpdated}>Last updated: October 30, 2017</p>
+      <p className={css.lastUpdated}>Last updated: May 21, 2019</p>
     
       <p> 
     Motomo is committed to providing quality services to you and this policy outlines our ongoing obligations to you in respect of how we manage your Personal Information.
@@ -48,20 +48,15 @@ We collect your Personal Information for the primary purpose of providing our se
   <p> 
       Sensitive information is defined in the Privacy Act to include information or opinion about such things as an individual's racial or ethnic origin, political opinions, membership of a political association, religious or philosophical beliefs, membership of a trade union or other professional body, criminal record or health information.
 </p>
-  <ul> Sensitive information will be used by us only:
+  <p> Sensitive information will be used by us only:
 
-        <li> 
-          For the primary purpose for which it was obtained
-        </li>
-            <li> 
-          For a secondary purpose that is directly related to the primary purpose
-        </li>
-        <li> 
-          With your consent; or where required or authorised by law.
-        </li>
-  
-  </ul>
-  
+        <br>
+         · For the primary purpose for which it was obtained
+        <br>
+          · For a secondary purpose that is directly related to the primary purpose
+         <br>
+          · With your consent; or where required or authorised by law.
+  </p>  
   <h2> 
             Third Parties
 </h2>
@@ -72,16 +67,13 @@ We collect your Personal Information for the primary purpose of providing our se
     <h2> 
     Disclosure of Personal Information
     </h2> 
-    <ul> Your Personal Information may be disclosed in a number of circumstances including the following:
-
-        <li> 
-          Third parties where you consent to the use or disclosure; and
-        </li>
-            <li> 
-          Where required or authorised by law.
-        </li>  
-  </ul>
-  
+    <p>
+  Your Personal Information may be disclosed in a number of circumstances including the following:
+<br>
+          · Third parties where you consent to the use or disclosure; and
+<br>
+          · Where required or authorised by law.
+</p>  
     <h2> 
             Security of Personal Information
 </h2>
