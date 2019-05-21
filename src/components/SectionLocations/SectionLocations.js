@@ -53,7 +53,7 @@ const SectionLocations = props => {
         {locationLink(
           'Sydney',
           sydneyImage,
-          '?address=Sydney%2C%20Australia&origin=-33.8654268%2C-208.789072'
+          '?address=Sydney%2C%20Australia&bounds=150.520928608%2C-34.118344992%2C151.343020992%2C-33.578140996&origin=151.21%2C-33.868'
         )}
         {locationLink(
           'Melbourne',
