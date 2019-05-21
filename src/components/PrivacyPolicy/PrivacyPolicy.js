@@ -49,12 +49,14 @@ We collect your Personal Information for the primary purpose of providing our se
       Sensitive information is defined in the Privacy Act to include information or opinion about such things as an individual's racial or ethnic origin, political opinions, membership of a political association, religious or philosophical beliefs, membership of a trade union or other professional body, criminal record or health information.
 </p>
   <p> Sensitive information will be used by us only:
-
-        <br>
-         · For the primary purpose for which it was obtained
-        <br>
+    </p>
+  <p>
+· For the primary purpose for which it was obtained
+    </p>
+  <p>
           · For a secondary purpose that is directly related to the primary purpose
-         <br>
+    </p>
+  <p>
           · With your consent; or where required or authorised by law.
   </p>  
   <h2> 
@@ -69,10 +71,12 @@ We collect your Personal Information for the primary purpose of providing our se
     </h2> 
     <p>
   Your Personal Information may be disclosed in a number of circumstances including the following:
-<br>
-          · Third parties where you consent to the use or disclosure; and
-<br>
-          · Where required or authorised by law.
+  </p>
+  <p>
+    · Third parties where you consent to the use or disclosure; and
+  </p>
+  <p>
+    · Where required or authorised by law.
 </p>  
     <h2> 
             Security of Personal Information
