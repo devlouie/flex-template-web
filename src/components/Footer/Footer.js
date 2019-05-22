@@ -119,7 +119,7 @@ const Footer = props => {
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchHelsinki" />
+                    <FormattedMessage id="Footer.searchSydney" />
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -127,11 +127,11 @@ const Footer = props => {
                     name="SearchPage"
                     to={{
                       search:
-                        '?address=Turku%2C%20Finland&bounds=60.5304531%2C22.38197820000005%2C60.33361189999999%2C22.066440100000023&origin=60.4518126%2C22.26663020000001',
+                        '?address=Melbourne%2C%20Victoria&bounds=-37.5112737225%2C145.512528832%2C-38.433859306%2C144.593741856&origin=-37.8142%144.9632',
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchTurku" />
+                    <FormattedMessage id="Footer.searchMelbourne" />
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -139,11 +139,11 @@ const Footer = props => {
                     name="SearchPage"
                     to={{
                       search:
-                        '?address=Tampere%2C%20Finland&bounds=61.83657359999999%2C24.118384099999957%2C61.42728169999999%2C23.542201299999988&origin=61.4977524%2C23.760953500000028',
+                        '?address=Brisbane%2C%20Queensland&bounds=-26.996844991%2C153.31787024%2C-27.767436998%2C152.668522848&origin=-27.469%153.0235',
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchTampere" />
+                    <FormattedMessage id="Footer.searchBrisbane" />
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -151,11 +151,11 @@ const Footer = props => {
                     name="SearchPage"
                     to={{
                       search:
-                        '?address=Oulu%2C%20Finland&bounds=65.5643426%2C26.770696000000044%2C64.8443082%2C24.114941999999928&origin=65.0120888%2C25.465077199999996',
+                        '?address=Goldcoast%2C%20Queensland&bounds=-27.708126368%2C153.552171232%2C-28.2003171475%2C153.186551712&origin=-28.0024%153.4146',
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchOulu" />
+                    <FormattedMessage id="Footer.searchGoldcoast" />
                   </NamedLink>
                 </li>
                 <li className={css.listItem}>
@@ -163,16 +163,16 @@ const Footer = props => {
                     name="SearchPage"
                     to={{
                       search:
-                        '?address=Rukatunturi%2C%20Kuusamo%2C%20Finland&bounds=66.1699707%2C29.167735499999935%2C66.1609529%2C29.13572069999998&origin=66.1654622%2C29.151728100000014',
+                        '?address=Cairns%2C%20Queensland&bounds=-16.7223939305%2C145.783431648%2C-17.038658997%2C145.650457088&origin=-16.9205%145.7719',
                     }}
                     className={css.link}
                   >
-                    <FormattedMessage id="Footer.searchRuka" />
+                    <FormattedMessage id="Footer.searchCairns" />
                   </NamedLink>
                 </li>
               </ul>
             </div>
-            <div className={css.searchesExtra}>
+            {/* <div className={css.searchesExtra}>
               <ul className={css.list}>
                 <li className={css.listItem}>
                   <NamedLink
@@ -235,7 +235,8 @@ const Footer = props => {
                   </NamedLink>
                 </li>
               </ul>
-            </div>
+            </div> */}
+
             <div className={css.extraLinks}>
               <div className={css.someLinks}>{socialMediaLinks}</div>
               <div className={css.legalMatters}>
