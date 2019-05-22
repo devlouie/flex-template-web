@@ -115,7 +115,7 @@ const Footer = props => {
                     name="SearchPage"
                     to={{
                       search:
-                        '?address=Helsinki%2C%20Finland&bounds=60.2978389%2C25.254484899999966%2C59.9224887%2C24.782875800000056&origin=60.16985569999999%2C24.93837910000002',
+                        '?address=Sydney%2C%20Australia&bounds=-33.578140996%2C151.343020992%2C-34.118344992%2C150.520928608&origin=-33.868%2C151.21',
                     }}
                     className={css.link}
                   >
