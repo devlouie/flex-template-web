@@ -147,8 +147,6 @@ const TermsOfService = props => {
 <p>You shall defend, indemnify, and hold Motomo, its subsidiaries, affiliates, employees, officers, directors, and agents, and any of your drivers or their authorized drivers, harmless from and against any and all claims, demands, suits, judgments, costs, expenses, liabilities, attorneys fees, damages, consequential damages, punitive damages, property damage, personal injury, theft or otherwise, without limitation, related to or arising out of any reservation or use of any vehicles, including without limitation, any vehicle damage, personal injury or property damage.</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
     </div>
   );
 };
