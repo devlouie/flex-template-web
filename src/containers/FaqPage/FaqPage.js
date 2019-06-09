@@ -10,8 +10,8 @@ import {
   ExternalLink,
 } from '../../components';
 
-import css from './AboutPage.css';
-import image from './path/to/image.png';
+import css from './FaqPage.css';
+// import image from './path/to/image.png';
 
 const AboutPage = () => {
   return (
@@ -31,7 +31,7 @@ const AboutPage = () => {
         </LayoutWrapperTopbar>
         <LayoutWrapperMain>
           <h1>Some content</h1>
-          <img src={image} alt="My first ice cream." />
+          {/* <img src={image} alt="My first ice cream." /> */}
           <div>
             <NamedLink name="LandingPage">Go to home page</NamedLink> or
             <ExternalLink href="https://google.com">
