@@ -40,30 +40,40 @@ const FaqPage = () => {
 
           <div className={css.contentWrapper}>
             <div className={css.contentSide}>
-              <p>Did you!</p>
+              <p>If you require support, please use our chat system to instantly speak to our 
+                customer service representatives.
+              </p>
             </div>
 
             <div className={css.contentMain}>
               <h2>
-                Q: How do i sign up?
+                How does motomo work?
               </h2>
 
               <p>    
-                A: Do the things.    
+              Motomo allows for the booking of a wide variety of vehicles and makes the booking process fast and easy. 
+
+              Motomo deals directly with Australia's most reputable luxury car rental businesses, ensuring that you will always have confidence in booking your next rental. 
+              
+              Simply search for a vehicle, Request a booking and the responsible car rental business will contact you directly with confirmation and further instructions.    
               </p>
+
+
+              <h2>
+              What happens if i need to cancel a booking?
+              </h2>
+
+              <p> 
+                In the incident where you require to cancel a booking, the following terms apply: </br>
+                · If the booking is cancelled 72 hours or greater prior to the scheduled commencement of the rental, a 90% refund is issued. </br>
+                · If the booking is cancelled within 72 hours to the scheduled commencement, a 50% refund is issued.</br>
+                · If the booking is cancelled within 24 hours to the scheduled commencement, refund is not issued.
+              </p>
+
+
 
               <h3 className={css.subtitle}>Do you own a luxury vehicle rental business?</h3>
 
-              <p>
-                Motomo is currently looking to include more listings from existing luxury vehicle rental businesses in Australia.
-                If you are interested in listing with motomo, please apply <ExternalLink href={siteTwitterPage}>here</ExternalLink>.
-              </p>
-
-              <p>
-                You can also checkout our{' '}
-                <ExternalLink href={siteFacebookPage}>Facebook</ExternalLink> and{' '}
-                <ExternalLink href={siteTwitterPage}>Twitter</ExternalLink>.
-              </p>
             </div>
           </div>
         </LayoutWrapperMain>
