@@ -1,4 +1,6 @@
 import React from 'react';
+import config from '../../config';
+import { twitterPageURL } from '../../util/urlHelpers';
 import { StaticPage, TopbarContainer } from '../../containers';
 import {
   LayoutSingleColumn,
@@ -6,39 +8,66 @@ import {
   LayoutWrapperMain,
   LayoutWrapperFooter,
   Footer,
-  NamedLink,
   ExternalLink,
 } from '../../components';
 
 import css from './FaqPage.css';
-// import image from './path/to/image.png';
+import image from './faq-1056.jpg';
 
-const AboutPage = () => {
+const FaqPage = () => {
+  const { siteTwitterHandle, siteFacebookPage } = config;
+  const siteTwitterPage = twitterPageURL(siteTwitterHandle);
+
+  // prettier-ignore
   return (
     <StaticPage
-      className={css.root}
-      title="About"
+      title="Frequently Asked Questions"
       schema={{
         '@context': 'http://schema.org',
-        '@type': 'AboutPage',
-        description: 'Description of this page',
-        name: 'About page',
+        '@type': 'FaqPag',
+        description: 'Frequently Asked Questions',
+        name: 'FAQ page',
       }}
     >
       <LayoutSingleColumn>
         <LayoutWrapperTopbar>
           <TopbarContainer />
         </LayoutWrapperTopbar>
-        <LayoutWrapperMain>
-          <h1>Some content</h1>
-          {/* <img src={image} alt="My first ice cream." /> */}
-          <div>
-            <NamedLink name="LandingPage">Go to home page</NamedLink> or
-            <ExternalLink href="https://google.com">
-              Go to Google
-            </ExternalLink>
+
+        <LayoutWrapperMain className={css.staticPageWrapper}>
+          <h1 className={css.pageTitle}>Frequently Asked Questions.</h1>
+          <img className={css.coverImage} src={image} alt="FAQ-Smiling-People." />
+
+          <div className={css.contentWrapper}>
+            <div className={css.contentSide}>
+              <p>Did you!</p>
+            </div>
+
+            <div className={css.contentMain}>
+              <h2>
+                Q: How do i sign up?
+              </h2>
+
+              <p>    
+                A: Do the things.    
+              </p>
+
+              <h3 className={css.subtitle}>Do you own a luxury vehicle rental business?</h3>
+
+              <p>
+                Motomo is currently looking to include more listings from existing luxury vehicle rental businesses in Australia.
+                If you are interested in listing with motomo, please apply <ExternalLink href={siteTwitterPage}>here</ExternalLink>.
+              </p>
+
+              <p>
+                You can also checkout our{' '}
+                <ExternalLink href={siteFacebookPage}>Facebook</ExternalLink> and{' '}
+                <ExternalLink href={siteTwitterPage}>Twitter</ExternalLink>.
+              </p>
+            </div>
           </div>
         </LayoutWrapperMain>
+
         <LayoutWrapperFooter>
           <Footer />
         </LayoutWrapperFooter>
@@ -47,4 +76,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default FaqPage;
