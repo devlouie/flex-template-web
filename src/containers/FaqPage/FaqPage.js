@@ -53,7 +53,7 @@ const FaqPage = () => {
               <p>    
               Motomo allows for the booking of a wide variety of vehicles and makes the booking process fast and easy. {"\n"}{"\n"}
 
-              Motomo deals directly with Australia's most reputable luxury car rental businesses, ensuring that you will always have confidence in booking your next rental. {"\n"}{"\n"}
+              Motomo deals directly with Australia's most reputable luxury car rental businesses, ensuring that you will always have confidence in booking your next rental. {"\n"}{"\n"} 
               
               Simply search for a vehicle, Request a booking and the responsible car rental business will contact you directly with confirmation and further instructions.    
               </p>
