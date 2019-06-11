@@ -64,15 +64,21 @@ const FaqPage = () => {
               </h2>
 
               <p> 
-                In the incident where you require to cancel a booking, the following terms apply: {"\n"}{"\n"}
-                · If the booking is cancelled 72 hours or greater prior to the scheduled commencement of the rental, a 90% refund is issued.{"\n"}{"\n"}
-                · If the booking is cancelled within 72 hours to the scheduled commencement, a 50% refund is issued.{"\n"}{"\n"}
+                In the incident where you require to cancel a booking, the following terms apply:
+              </p>
+    <p>
+                · If the booking is cancelled 72 hours or greater prior to the scheduled commencement of the rental, a 90% refund is issued.
+                  </p>
+    <p>
+
+                · If the booking is cancelled within 72 hours to the scheduled commencement, a 50% refund is issued.
+                      </p>
+
+        <p>
+
                 · If the booking is cancelled within 24 hours to the scheduled commencement, refund is not issued.
               </p>
 
-
-
-              <h3 className={css.subtitle}>Do you own a luxury vehicle rental business?</h3>
 
             </div>
           </div>
