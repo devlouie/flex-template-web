@@ -40,13 +40,13 @@ const AboutPage = () => {
 
           <div className={css.contentWrapper}>
             <div className={css.contentSide}>
-              <p>Did you!</p>
+              <p>Enjoy one of the largest ranges of rental luxury, exotic, sport, electric and rare 
+                vehicles in Australia.</p>
             </div>
 
             <div className={css.contentMain}>
               <h2>
-                Enjoy one of the largest ranges of rental luxury, exotic, sport, electric and rare 
-                vehicles in Australia.
+                The easiest way to book!
               </h2>
 
               <p>    
@@ -60,7 +60,7 @@ const AboutPage = () => {
 
               <p>
                 Motomo is currently looking to include more listings from existing luxury vehicle rental businesses in Australia.
-                If you are interested in listing with motomo, please apply <ExternalLink href={siteTwitterPage}>here</ExternalLink>.
+                If you are interested in listing with motomo, please speak to our customer representatives through the website chat system.
               </p>
 
               <p>
